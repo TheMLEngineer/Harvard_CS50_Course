@@ -4,6 +4,7 @@
 int main(void)
 {
     int n;
+    // prompt user for positive integer
     do
     {
         n = get_int("Square size : ");

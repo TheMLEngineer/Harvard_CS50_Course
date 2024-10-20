@@ -11,9 +11,13 @@ int main(void)
     while (row<1 || row>8);
     for (int i = 0; i < row; i++)
     {
-        for (int j =i ;j>=0;j--)
+        for (int j = 0;j<=i;j++)
         {
-            printf("%i", j);
+            printf("*");
+        }
+        for (int k = i ; k <= 1 ; k-- )
+        {
+            printf("#");
         }
         printf("\n");
     }

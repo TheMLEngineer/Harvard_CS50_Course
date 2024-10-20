@@ -13,11 +13,11 @@ int main(void)
     {
         for (int j = 0;j<=i;j++)
         {
-            printf("*");
+            printf(" ");
         }
-        for (int k = i ; k <= 1 ; k-- )
+        for (int k = 0 ; k <= row - (i+1) ; k++ )
         {
-            printf("#");
+            printf("*",k);
         }
         printf("\n");
     }
